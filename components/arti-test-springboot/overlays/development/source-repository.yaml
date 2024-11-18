@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: arti-test-springboot-repository
+spec:
+  url: https://github.com/prietyc123-qe-org/arti-test-springboot
